@@ -34,14 +34,14 @@ InitiaMonitor: This tool is to monitor the status of the node/validator.
 ```
 bash <(curl -s https://raw.githubusercontent.com/VuzzyM/InitiaMonitor/main/utils/install_docker.sh)
 ```
-![1](https://github.com/VuzzyM/initia-monitor/assets/66425682/64bb4955-4262-4daa-9f0b-323fcc565bac)
+![1](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/2f03a03f-b9be-4ba7-ab5d-2f151a072747)
 
 2. Clone the repo
 ```
 cd ~
 git clone https://github.com/VuzzyM/InitiaMonitor.git
 ```
-![2](https://github.com/VuzzyM/initia-monitor/assets/66425682/39ffee41-813e-410e-8e0b-8e83fac1ca91)
+![2](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/1243a576-7536-4847-965c-caccfca53a30)
 
 3. Create configuration files from examples
 ```
@@ -49,20 +49,19 @@ cd monitoring-tool
 cp prometheus/prometheus.yml.example prometheus/prometheus.yml
 cp alertmanager/config.yml.example alertmanager/config.yml
 ```
-![3](https://github.com/VuzzyM/initia-monitor/assets/66425682/7379f23b-3d72-4641-b0c6-cdf78f34ef57)
+![3](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/cbabe2ca-77a9-4b6f-a744-e955ff1a772d)
 
 4. Start containers
 ```
 sudo docker compose up -d
 ```
-![5](https://github.com/VuzzyM/initia-monitor/assets/66425682/c1b96bf7-2483-4032-9ed8-49f5f1da82a2)
-
+![5](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/6fffdb40-4252-4093-b223-3c22255b6adc)
 
   ## How to set up
  ### Servers to monitor
 Add your servers with installed [node_exporter](https://github.com/prometheus/node_exporter) or installed cosmos-based node with enabled prometheus port to file `prometheus/prometheus.yml`
 
-![7](https://github.com/VuzzyM/initia-monitor/assets/66425682/29f03cc1-e08b-41d9-9ea6-3508ccfd04c4)
+![7](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/2b432138-76a1-4925-91e9-a68f49501d9a)
 
 ```
   # example for servers with node_exporter installed
@@ -95,9 +94,9 @@ Add your servers with installed [node_exporter](https://github.com/prometheus/no
 sudo nano $HOME/.initia/config/app.toml
 ```
 
-![8](https://github.com/VuzzyM/initia-monitor/assets/66425682/b518df67-551f-4ee3-9c56-af5408c85624)
+![8](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/5f259307-0be5-4602-87ae-5346a4fef670)
 
-![9](https://github.com/VuzzyM/initia-monitor/assets/66425682/42ddf3ea-fe20-4315-a84d-7afa7e946b96)
+![9](https://github.com/VuzzyM/InitiaMonitor/assets/66425682/d74168d8-696b-4a3f-a519-e99202797173)
 
 
 ### Telegram notifications
