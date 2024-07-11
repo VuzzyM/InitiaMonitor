@@ -120,13 +120,13 @@ In the screenshots below are statistics about how much a server with the Initia 
 
 ![13](https://github.com/user-attachments/assets/6384bb8e-1624-426e-815f-460143a4b04b)
 
-![14](https://github.com/user-attachments/assets/80b3cded-f0a0-44bc-8bf0-c9036c633b19)
+![14](https://github.com/user-attachments/assets/9738cd55-2739-4817-9ca1-75fb554a5bb5)
 
 ![15](https://github.com/user-attachments/assets/d729cb03-9735-4488-83a4-14a0b3cdc3da)
 
-![16](https://github.com/user-attachments/assets/59279556-8b85-4de2-b0a9-dffbf3d218e7)
+![16](https://github.com/user-attachments/assets/481bd58c-d320-467e-8e37-6fbf611a5ae3)
 
-![17](https://github.com/user-attachments/assets/89649d3d-7a5a-468d-9a3f-799890dd21da)
+![17](https://github.com/user-attachments/assets/699b9c1c-73cb-491b-abec-3935059b2a6d)
 
 ## How to update
 How to update the docker container
