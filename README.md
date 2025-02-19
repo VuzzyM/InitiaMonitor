@@ -128,13 +128,18 @@ In the screenshots below are statistics about how much a server with the Initia 
 
 ![17](https://github.com/user-attachments/assets/699b9c1c-73cb-491b-abec-3935059b2a6d)
 
+## Install node_exporter
+Just run next command 
+```
+bash <(curl https://raw.githubusercontent.com/VuzzyM/InitiaMonitor/refs/heads/main/utils/install_node_exporter.sh)
+```
+
 ## How to update
 How to update the docker container
 ```
 cd monitoring-tool
-sudo docker compose down
-git pull
-sudo docker compose pull
-sudo docker compose up -d
+docker compose pull
+docker compose up --force-recreate --build -d
+docker image prune -f
 ```
 Thanks for the support received from the [nodejumper](https://github.com/nodejumper-org) team
